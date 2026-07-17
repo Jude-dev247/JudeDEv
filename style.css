@@ -794,14 +794,7 @@ width:100%;
         align-items: center;
         margin-top: 200px;
     }
-    .services-h{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-    .services-h h3{
-        margin:0;
-    }
+
     .service{
         margin: 0;
         margin-top: 100px;
@@ -941,7 +934,7 @@ width:100%;
     margin:0;
     text-align: center;
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 30px;
 }
 footer{
     border:none;
@@ -952,11 +945,6 @@ footer p{
 }
 footer h1{
     font-size: 1.5rem;
-}
-.active{
-    margin: 0;
-    margin-left: 120px;
-    margin-top: 5px;
 }
 .whatsapp{
     font-size:3rem;
