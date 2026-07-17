@@ -4,6 +4,9 @@ body{
     font-family:poppins ;
     overflow-x: hidden;
 }
+html, body{
+    overflow-x:none;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -686,11 +689,13 @@ width:100%;
         margin-right: 10px;
         z-index: 1000;
         right: 0;
+        margin-left:0px;
     }
     a button{
        background-color: #30CDC8;
        border: none;
        color: white;
+       margin-left:0px;
     }
     ul{
         display: flex;
@@ -731,7 +736,7 @@ width:100%;
         grid-template-columns:repeat(2, minmax(0, 1fr));
         width:90%;
         align-items:center;
-        margin-left:80px;
+        margin-left:60px;
         padding:0px;
     }
     .achievements h1{
@@ -768,7 +773,7 @@ width:100%;
         
     }
     .icon{
-       width: 100%;
+       width: 80%;
        height: 50px;
        padding-left: 0;
        font-size: 1.6rem;
@@ -790,11 +795,12 @@ width:100%;
         margin-top: 200px;
     }
     .services-h{
-        margin: 0;
-        margin-top: 200px;
-        margin-left: 100px;
-        margin-bottom: 70px;
-    
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .services-h h3{
+        margin:0;
     }
     .service{
         margin: 0;
@@ -809,7 +815,7 @@ width:100%;
     }
     .icon{
         margin-top:50px;
-        width:100%;
+        width:90%;
         border-radius:20% 5%;
     }
     .projects{
@@ -831,6 +837,10 @@ width:100%;
     }
     .expertise{
     display: none;
+    }
+    .Plang{
+        display:flex;
+        justify-content:center;
     }
     
     .skill .progressbar{
