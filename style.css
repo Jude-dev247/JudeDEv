@@ -137,12 +137,7 @@ li a:hover{
     background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
     opacity: 0.3;
 }
-.whatsapIcon{
-    justify-content: right;
-    margin-left: 1250px;
-    position: fixed;
-    z-index: 99;
-}
+
 .status{
     display:flex;
     align-items: center;
@@ -199,18 +194,18 @@ li a:hover{
     }
 }
 
-/*The achiebements section*/
+/*The achievements section*/
 .achievements{
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    gap:200px;
-    text-align: center;
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0, 1fr));
+    gap:20px;
+    padding:20px;
 }
 .achievements h1{
     font-size: 60px;
     color: aliceblue;
     margin-bottom: 2px;
+    margin-left:70px;
 }
 .achievements p{
     font-size: 18px;
@@ -656,15 +651,22 @@ footer{
         opacity: 0.5;
     }
 }
-
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:100px;
+    color:#25D366;
+    font-size:3rem;
+    z-index:9999;
+}
 
 
 
 /*MOBILE PHONE DISPLAY*/
   
-@media(max-width:480px){
+@media(max-width:760px){
     nav{
-        overflow: hidden;
+        overflow-x: hidden;
     height: 50px;
     background: rba(7, 7, 7, 0.4);
     backdrop-filter: blur(10px);
@@ -674,6 +676,7 @@ footer{
 position: absolute;
 position: fixed;
 transition: all ease-in-out .4s;
+width:100%;
     }
     #menu{
         display: flex;
@@ -711,12 +714,12 @@ transition: all ease-in-out .4s;
         margin-top: 80px;
     }
     .homeContent h1{
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: center;
 
     }
     .homePage p{
-        font-size: 1.3rem;
+        font-size: 0.9rem;
     }
     .homePage button{
     height:70px;
@@ -725,21 +728,21 @@ transition: all ease-in-out .4s;
         margin-top: 20px;
     }
     .achievements{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-        justify-content: space-between;
-        row-gap: 17px;
-        height: 300px;
-        padding-left: 20px;
-        padding-right: 20px;
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+        width:90%;
+        align-items:center;
+        margin-left:80px;
+        padding:0px;
+    }
+    .achievements h1{
+        margin-left:0px;
     }
     .stats{
         width: 22%;
         margin: 0;
     }
     .stats h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .stats p{
         font-size: 1rem;
@@ -774,7 +777,7 @@ transition: all ease-in-out .4s;
     }
     .about img{
         margin-left: -20px;
-        transform: scale(0.9);
+        transform: scale(1);
         margin-bottom: 0;
     }
     .aboutMe{
@@ -788,29 +791,39 @@ transition: all ease-in-out .4s;
     }
     .services-h{
         margin: 0;
-        margin-top: 100px;
+        margin-top: 200px;
         margin-left: 100px;
         margin-bottom: 70px;
     
     }
     .service{
         margin: 0;
-        margin-top: 30px;
-        width: 90%;
+        margin-top: 100px;
+        width: 80%;
     }
-    
+    .mySkills{
+        margin-top:320px;
+    }
+    .aboutIcon{
+        margin-top:130px;
+    }
+    .icon{
+        margin-top:50px;
+        width:100%;
+        border-radius:20% 5%;
+    }
     .projects{
         flex-direction: column;
-        gap: 20px;
+        gap: 70px;
         margin: 0;
         padding: 0;
 
         align-items: center;
     }
     .project{
-        width: 100%;
+        width: 90%;
         height: 430px;
-        margin-top: 5px;
+        margin-top: 30px;
     }
     .project img{
         width:100%;
@@ -934,5 +947,8 @@ footer h1{
     margin: 0;
     margin-left: 120px;
     margin-top: 5px;
+}
+.whatsapp{
+    font-size:3rem;
 }
 }
