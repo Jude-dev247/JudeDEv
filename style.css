@@ -1,3 +1,6 @@
+*{
+    box-sizing:border-box;
+}
 body{
     background-color: #070707;
     color: #ffff;
@@ -781,7 +784,7 @@ width:100%;
        padding-top: 30px;
     }
     .about img{
-        margin-left: -20px;
+        margin-left: 0px;
         transform: scale(1);
         margin-bottom: 0;
     }
