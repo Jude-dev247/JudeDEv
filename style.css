@@ -746,7 +746,7 @@ right:0;
         padding:0 10px;
     }
     .achievements h1{
-        margin-left:0px;
+        margin-left:25px;
     }
     .stats{
         width: 100%;
@@ -959,7 +959,7 @@ body {
 
 #menu {
     position: fixed !important;
-    right: 30px !important;
+    right: 70px !important;
     top: 10px !important;
     display: block !important;
     z-index: 99999 !important;
@@ -968,7 +968,7 @@ body {
 
 .whatsapp {
     position: fixed !important;
-    right: 30px !important;
+    right: 70px !important;
     bottom: 30px !important;
     z-index: 99999 !important;
 }
