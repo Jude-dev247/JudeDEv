@@ -11,7 +11,11 @@ body{
     max-width:100%;
 }
 html, body{
-    overflow-x:none;
+    html, body
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 html{
     scroll-behavior: smooth;
@@ -665,9 +669,13 @@ footer{
     position:fixed;
     right:20px;
     bottom:100px;
+    z-index:9999;
+}
+
+.whatsapp a{
     color:#25D366;
     font-size:3rem;
-    z-index:9999;
+    text-decoration:none;
 }
 
 
@@ -691,10 +699,10 @@ box-sizing:border-box;
     }
     #menu{
         display:block;
-        position:fixed;
+        position:absolute;
         top:10px;
-        right: 10px;
-        overflow-x:hidden;
+        right: 20px;
+        z-index:1000;
     }
     a button{
        background-color: #30CDC8;
@@ -772,18 +780,7 @@ box-sizing:border-box;
         margin-left: 10px;
     }
     .aboutIcon{
-        flex-direction: column;
-        gap:30px;
-        margin-top: 30px;
-        
-    }
-    .icon{
-       width: 80%;
-       height: 50px;
-       padding-left: 0;
-       font-size: 1.6rem;
-       text-align: center;
-       padding-top: 30px;
+        display:none;
     }
     .about img{
         margin-left: 0px;
