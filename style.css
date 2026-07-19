@@ -674,7 +674,7 @@ footer{
 
 /*MOBILE PHONE DISPLAY*/
   
-@media(max-width:760px){
+@media(max-width:480px){
     nav{
         overflow-x: hidden;
     height: 50px;
