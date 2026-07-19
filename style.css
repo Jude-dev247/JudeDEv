@@ -6,17 +6,15 @@
 body{
     background-color: #070707;
     color: #ffff;
-    font-family:poppins ;
+    font-family:poppins, sans-serif;
     overflow-x: hidden;
     max-width:100%;
     padding:0;
 }
 html, body{
-    html, body
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-
 }
 html{
     scroll-behavior: smooth;
@@ -25,7 +23,7 @@ html{
     display:none;
 }
 nav{
-    background: rba(7, 7, 7, 0.4);
+    background: rgba(7, 7, 7, 0.4);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter:blur(10px);
     display: flex;
@@ -687,7 +685,7 @@ footer{
     nav{
         overflow-x: hidden;
     height: 50px;
-    background: rba(7, 7, 7, 0.4);
+    background: rgba(7, 7, 7, 0.4);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter:blur(10px);
     border: none;
@@ -960,7 +958,7 @@ body {
 
 #menu {
     position: fixed !important;
-    right: 15px !important;
+    right: 30px !important;
     top: 10px !important;
     display: block !important;
     z-index: 99999 !important;
@@ -969,7 +967,7 @@ body {
 
 .whatsapp {
     position: fixed !important;
-    right: 10px !important;
+    right: 30px !important;
     bottom: 30px !important;
     z-index: 99999 !important;
 }
