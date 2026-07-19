@@ -696,15 +696,6 @@ transition: all ease-in-out .4s;
 width:100%;
 box-sizing:border-box;
     }
-    #menu{
-    display:block;
-    position:fixed;
-    top:10px;
-    right:15px;
-    width:40px;
-    height:40px;
-    z-index:10000;
-}
     a button{
        background-color: #30CDC8;
        border: none;
@@ -800,7 +791,7 @@ box-sizing:border-box;
     .service{
         margin: 0;
         margin-top: 100px;
-        width: 80%;
+        width: 90%;
         height:auto;
     }
     .mySkills{
