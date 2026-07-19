@@ -10,6 +10,7 @@ body{
     overflow-x: hidden;
     max-width:100%;
     padding:0;
+    position: relative;
 }
 html, body{
     width: 100%;
@@ -945,6 +946,7 @@ footer{
     padding: 10px;
     width:100%;
     box-sizing:border-box;
+    position: relative;
 }
 footer p{
     font-size: 0.8rem;
@@ -959,7 +961,7 @@ body {
 
 #menu {
     position: fixed !important;
-    right: 70px !important;
+    right: 100px !important;
     top: 10px !important;
     display: block !important;
     z-index: 99999 !important;
@@ -967,8 +969,8 @@ body {
 }
 
 .whatsapp {
-    position: fixed !important;
-    right: 70px !important;
+    position: absolute !important;
+    right: 100px !important;
     bottom: 30px !important;
     z-index: 99999 !important;
 }
