@@ -103,6 +103,7 @@ li a:hover{
     text-align: center;
     align-items: center;
     overflow-x:hidden;
+    position: relative;
 }
 .homePage h1{
     font-size: 88px;
@@ -724,6 +725,7 @@ right:0;
         text-align: center;
         padding: 30px;
         margin-top: 80px;
+        position: relative;
     }
     .homeContent h1{
         font-size: 3rem;
@@ -833,6 +835,8 @@ right:0;
     .Plang{
         display:flex;
         justify-content:center;
+        margin: 0 auto;
+        align-items: center;
     }
     
     .skill .progressbar{
@@ -961,7 +965,7 @@ body {
 
 #menu {
     position: fixed !important;
-    right: 100px !important;
+    right: 70px !important;
     top: 10px !important;
     display: block !important;
     z-index: 99999 !important;
@@ -970,7 +974,7 @@ body {
 
 .whatsapp {
     position: absolute !important;
-    right: 100px !important;
+    right: 70px !important;
     bottom: 30px !important;
     z-index: 99999 !important;
 }
