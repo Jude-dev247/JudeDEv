@@ -723,8 +723,7 @@ box-sizing:border-box;
         color: #d1cbcb;
     }
     .status{
-        margin: 0;
-        margin-left: 50px;
+        margin: 0 auto;
     }
     .homePage{
         text-align: center;
@@ -747,16 +746,16 @@ box-sizing:border-box;
     }
     .achievements{
         grid-template-columns:repeat(2, minmax(0, 1fr));
-        width:90%;
+        width:100%;
         align-items:center;
-        margin-left:60px;
-        padding:0px;
+        margin-left:0;
+        padding:0 10px;
     }
     .achievements h1{
         margin-left:0px;
     }
     .stats{
-        width: 22%;
+        width: 100%;
         margin: 0;
     }
     .stats h1{
